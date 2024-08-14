@@ -1,0 +1,132 @@
+
+:root{
+    --cor-primary: #473C8B;
+    --cor-segundary: #6341DB;
+    --cor-details: rgb(0, 198, 104);
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h5,
+input,
+ul ,
+a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .navbar-nav li {
+        margin-bottom: 10px !important;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.navbar-nav li a {
+    color: #fff;
+}
+
+.active {
+    color: green;
+}
+
+@media(max-width:600px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .sobre {
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 1rem !important;
+    }
+
+}
+
+.planos.planoAtivo {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.planos.planoAtivo h1 {
+    color: var(--cor-primary) !important;
+}
+
+.planos.planoAtivo p {
+    color: #000 !important;
+}
+
+.planos.planoAtivo span {
+    color: darkgoldenrod !important;
+}
+.planos:hover{
+    cursor: pointer;
+}
+.faq-conteudo {
+    display: none;
+}
+
+.ativouFaq {
+    display: block;
+}
+
+.faq-titulo {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.faq-titulo:hover {
+    color: #ddd;
+    /* Cor ao passar o mouse sobre o título */
+}
+
+.faq-seta {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+.faq-conteudo {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
+}
+
+.faq-conteudo.ativouFaq {
+    display: block;
+    max-height: 500px;
+    
+}
+
+.faq-seta.rotate {
+    transform: translateY(-50%) translateX(-50%) rotate(180deg);
+    
+}
+
+
+
+
+.nav-item a:hover{  
+    color: #fff;
+    transform: translateY(-7px);
+    transition-duration: .5;
+}
+

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PluginZap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41c1b8534b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg shadow-sm pb-2" style="background-color: var(--cor-primary);">
+                <div class="container d-flex justify-content-between">
+
+                    <a class="navbar-brand" href="/"><img src="./img/Logo.png" width="80px" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto d-flex align-items-center">
+                            <li class="nav-item px-2">
+                                <a class="nav-link " href="/">Doc</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#planos">Planos</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link">Login</a>
+                            </li>
+                            <li class="nav-item px-2 py-1" style="border: solid 1px #fff; border-radius: 8px;">
+                                <a class="nav-link">Central Dev</a>
+                            </li>
+                            <li class="nav-item px-2 py-1 mx-2"
+                                style="background-color:var(--cor-details); border-radius: 8px; ">
+                                <a data-bs-toggle="modal" data-bs-target="#orcamentoModal"
+                                    class="nav-link fw-bold">Orçamento</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main style="background-color: var(--cor-primary); height: auto; min-height: 95vh;">
+        <div class="container pt-3" style="color: #fff;">
+            <div class="row">
+                <div class="p-3 col-lg-5 mb-3 ">
+                    <h1 class=" fw-bold pe-5" style=" font-size: 4rem;">A API <strong
+                            style="color: var(--cor-details);"> Tecla Zap. </strong> </h1>
+                    <p class="f-3 pt-5">A API TECLA ZAP foi concebida por programadores, para programadores. Nosso foco
+                        é a simplicidade e a eficácia em tudo o que fazemos. Chega de rodeios, vamos direto ao ponto.
+                        <strong style="color: var(--cor-details);">Let's go! </strong>
+                    </p>
+                    <div class="mt-3 mb-2 d-flex justify-content-center justify-content-md-start">
+                        <a data-bs-toggle="modal" data-bs-target="#orcamentoModal" href=""
+                            class=" btn p-3 fs-5 fs-md-4 mt-5 "
+                            style=" background-color: var(--cor-details); color: #fff;">Solicite
+                            seu
+                            Orçamento!</a>
+                    </div>
+                </div>
+
+                <div class=" col-lg-7 d-flex flex-column text-center justify-content-center p-1 mt-3 mb-3"
+                    style="color: #fff">
+                    <div class=" mb-3 mb-md-5">
+                        <h1 class="fs-1">A Primeira API do Mundo!</h1>
+                        <p class="mb-2 fs-4">Compativel com tudo</p>
+                    </div>
+                    <img class="mt-md-3" src="./img/undraw_undraw_apps_bqvc_-1-_us8r.svg" height="400" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <section data-anime="scroll" style="background-color: #fff; height: auto; min-height: 95vh;">
+        <div class="container sobre">
+            <div class="row mt-5 align-items-center" style="height: 100%;">
+                <div class="col-12 col-lg-6 p-5 mt-4">
+                    <img src="./img/sobre.svg" width="100%" alt="">
+                </div>
+                <div class=" col-12 col-lg-6 p-3 mt-4">
+                    <h1 class="pb-2 fw-bold" style="font-size: 2.5rem;">Mas afinal, o que é <strong
+                            style="color: var(--cor-details); ">API TECLA
+                            ZAP?</strong></h1>
+                    <p class="pb-2">Para explicar de forma simples</p>
+                    <p class="pb-2">O API TECLA ZAP é um serviço que facilita a interação com o WhatsApp através de uma
+                        API fácil de usar. Ele também fornece notificações instantâneas sobre atividades relacionadas ao
+                        seu número.</p>
+                    <p class="pb-2">É importante lembrar que o API TECLA ZAP não deve ser usado para enviar spam ou
+                        mensagens indesejadas, nem para violar os termos de serviço do WhatsApp.</p>
+                    <p class="pb-2">Use a API com responsabilidade, criando recursos que sejam úteis tanto para seus
+                        clientes quanto para os usuários do WhatsApp.</p>
+                    <a href="" class="btn p-3 fs-5 fs-md-4 mt-5"
+                        style="background-color: var(--cor-details); color: #fff;">Experimento 2 dias Grátis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article data-anime="scroll" class="pb-5"
+        style="background-color: var(--cor-primary); height: auto; min-height: 50vh;">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between flex-wrap">
+                <h1 class="pt-5" style="color: #fff; font-size: 4rem; margin-right: 30px;">FAQ</h1>
+                <p class="fs-5" style="color: #fff; margin-top: 60px; margin-right: 90px;">
+                    Ainda tem dúvidas sobre o API TECLA ZAP? Você tem as respostas <br> abaixo:</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12  p-4 mt-5 d-flex flex-column">
+
+                    <div>
+                        <h1 class= "faq-titulo p-2 px-3"
+                            style="color: #fff; border: solid 2px #fff; border-radius: 12px; font-size: 1.5rem; width: 100%;">
+                            Quem pode utilizar API TECLA ZAP?
+                            <span class="faq-seta"><i class="fa-solid fa-chevron-up"
+                                    style="margin-right: 16px;"></i></span>
+                        </h1>
+                        <div class="faq-conteudo p-3"
+                            style="border: solid 2px #fff; padding: 20px; border-radius: 12px;">
+                            <h3 class="mb-3 fs-5" style="color: var(--cor-details);">Não há restrições quanto ao uso da
+                                nossa API, porém, tipicamente, identificamos dois grupos distintos de usuários:</h3>
+                            <ul class="fs-5" style="color: #fff;">
+                                <li class="mb-3">Programadores com familiaridade em API's RestFul. Se você não se
+                                    encaixa nessa categoria, mas conhece alguém com essas habilidades, também é
+                                    bem-vindo :)</li>
+                                <li>Utilizadores de soluções de terceiros que possibilitam a integração com a API TECLA
+                                    ZAP.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 class=" mt-2 faq-titulo p-2 px-3"
+                            style="color: #fff; border: solid 2px #fff; border-radius: 12px; font-size: 1.5rem; width: 100%;">
+                            Quais sãos os limites?
+                            <span class="faq-seta"><i class="fa-solid fa-chevron-up"
+                                    style="margin-right: 16px;"></i></span>
+                        </h1>
+                        <div class="faq-conteudo p-3"
+                            style="border: solid 2px #fff;; padding: 20px; border-radius: 12px; ">
+                            <h3 class="mb-3 fs-5" style="color: var(--cor-details);">Quero esclarecer que não há limite
+                                para o número de mensagens enviadas!</h3>
+                            <ul class="fs-5" style="color: #fff;">
+                                <li class="mb-3">No entanto, é crucial compreender que você está utilizando uma sessão
+                                    do WhatsApp Web, então o padrão de uso precisa ser compatível. Além disso, sempre
+                                    recomendamos a leitura cuidadosa das políticas estabelecidas pelo WhatsApp em sua
+                                    página oficial: <a href="https://www.whatsapp.com/legal"
+                                        style="color: var(--cor-details);">https://www.whatsapp.com/legal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </article>
+
+
+    <section data-anime="scroll" style="background-color: #f8f9fa; padding: 60px 0;">
+        <div class="container text-center">
+            <h1 style="color: #000; font-size: 2.5rem; font-weight: bold;">Como funciona o <strong
+                    style="color: var(--cor-details);"> fluxo de envio?</strong> </h1>
+            <div class="row justify-content-center mt-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="col-md-12">
+                        <div class="card shadow-sm mb-4" style="border: none; border-radius: 15px; min-height: 160px;">
+                            <div class="card-body text-start">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fa-solid fa-message fa-2x me-3" style="color: var(--cor-primary);"></i>
+                                    <h5 class="" style="color: var(--cor-primary);">Envio de Mensagem</h5>
+                                </div>
+                                <p>Você envia via API uma mensagem para o API TECLA ZAP.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="card shadow-sm mb-4" style="border: none; border-radius: 15px; min-height: 160px;">
+                            <div class="card-body text-start">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fa-solid fa-list fa-2x me-3" style="color: var(--cor-primary);"></i>
+                                    <h5 class="" style="color: var(--cor-primary);">Adição à Fila</h5>
+                                </div>
+                                <p>O API TECLA ZAP adiciona em uma fila e te retorna o ID da mensagem.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="card shadow-sm mb-4" style="border: none; border-radius: 15px; min-height: 160px;">
+                            <div class="card-body text-start">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fa-solid fa-repeat fa-2x me-3" style="color: var(--cor-primary);"></i>
+                                    <h5 class="" style="color: var(--cor-primary);">Processamento</h5>
+                                </div>
+                                <p>Sua instância processa a fila enviando para o WhatsApp.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="card shadow-sm mb-4" style="border: none; border-radius: 15px; min-height: 160px;">
+                            <div class="card-body text-start">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fa-solid fa-bell fa-2x me-3" style="color: var(--cor-primary);"></i>
+                                    <h5 class="" style="color: var(--cor-primary);">Notificação de Delivery</h5>
+                                </div>
+                                <p>Seu Webhook de delivery é chamado quando a mensagem é processada, te avisando que foi
+                                    enviada ou que houve falha.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/funcionamento.svg" width="100%" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section data-anime="scroll" id="planos" class="pb-4 "
+        style="background-color: var(--cor-primary); height: auto; min-height: 50vh; ">
+        <div class="container">
+            <div class="text-center mt-3 pt-5">
+                <h1 style="color: #fff;">Investimento por mês</h1>
+            </div>
+            <div class="row justify-content-center px-2">
+                <div class=" planos col-lg-3  pb-3  mx-4 pt-3 text-center  mt-3 "
+                    style="background-color: var(--cor-primary); border: solid 2px var(--cor-segundary); border-radius: 12px;">
+                    <div class="text-center pt-3">
+                        <span style="color: var(--cor-details);">Plano Master</span>
+                        <h1 class="mt-3 fw-bold mb-5" style="color: #fff;">R$ 49,90 / Mês</h1>
+                    </div>
+                    <div class="mt-3 text-center" style="color: #fff; font-family: Montserrat;">
+                        <p>Valor por instância, valor cobrado de 01 <br> até 25 instâncias.</p>
+                        <p>Sem limites de mensagens</p>
+                        <p>Arquivos até 16mb</p>
+                        <p>Fila de mensagens</p>
+                        <p>Envio de arquivos</p>
+                        <p>Webhooks</p>
+                        <p>Suporte</p>
+                        <a href="" class="btn p-3 fs-5 fs-md-4 fw-bold mt-3"
+                            style="background-color: var(--cor-segundary); width: 80%; color: #fff;">Experimente</a>
+                    </div>
+                </div>
+                <div class="col-lg-3  pb-3  mx-4  pt-3 text-center planos mt-3 "
+                    style="background-color: var(--cor-primary); border: solid 2px var(--cor-segundary); border-radius: 12px;">
+                    <div class="text-center pt-3">
+                        <span style="color: var(--cor-details);">Plano Classic</span>
+                        <h1 class="mt-3 fw-bold mb-5" style="color: #fff;">R$ 39,90/ Mês</h1>
+                    </div>
+                    <div class="mt-3 text-center" style="color: #fff; font-family: Montserrat;">
+                        <p>Valor por instância, valor cobrado de 26 até 50 instâncias.</p>
+                        <p>Sem limites de mensagens</p>
+                        <p>Arquivos até 16mb</p>
+                        <p>Fila de mensagens</p>
+                        <p>Envio de arquivos</p>
+                        <p>Webhooks</p>
+                        <p>Suporte</p>
+                        <a href="" class="btn p-3 fs-5 fs-md-4 fw-bold mt-3"
+                            style="background-color: var(--cor-segundary); width: 80%; color: #fff;">Experimente</a>
+                    </div>
+                </div>
+                <div class="col-lg-3  pb-3 mx-4 pt-3 text-center planos mt-3 "
+                    style="background-color: var(--cor-primary); border: solid 2px var(--cor-segundary); border-radius: 12px;">
+                    <div class="text-center pt-3">
+                        <span style="color: var(--cor-details);">Plano Customize</span>
+                        <h1 class="mt-3 fw-bold mb-5" style="color: #fff;">R$ 29,90/ Mês</h1>
+                    </div>
+                    <div class="mt-3 text-center" style="color: #fff; font-family: Montserrat;">
+                        <p>Valor por instância, valor cobrado de a partir de 51 instâncias.</p>
+                        <p>Sem limites de mensagens</p>
+                        <p>Arquivos até 16mb</p>
+                        <p>Fila de mensagens</p>
+                        <p>Envio de arquivos</p>
+                        <p>Webhooks</p>
+                        <p>Suporte</p>
+                        <a href="" class="btn p-3 fs-4 fw-bold mt-3"
+                            style="background-color: var(--cor-segundary); width: 80%; color: #fff;">Experimente</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-5">
+                <a data-bs-toggle="modal" data-bs-target="#orcamentoModal" class="btn fs-5 fs-md-4 p-3  "
+                    style="background-color: var(--cor-details); color: #fff;">SOLICITE SEU
+                    ORÇAMENTO!</a>
+
+
+                <div class="modal fade" id="orcamentoModal" tabindex="-1" aria-labelledby="orcamentoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="background-color: var(--cor-primary);">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="orcamentoModalLabel" style="color: #fff;">Solicite Seu
+                                    Orçamento</h1>
+                                <button type="button" style="color: #fff;" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <form action="">
+                                    <div class="mt-3 shadow-sm">
+                                        <input class="form-control" type="text" name="nome" placeholder="Nome:">
+                                    </div>
+                                    <div class="mt-3 shadow-sm">
+                                        <input class="form-control" type="email" name="email" placeholder="Email:">
+                                    </div>
+                                    <div class="mt-3 shadow-sm">
+                                        <input class="form-control" type="number" name="telefone"
+                                            placeholder="Telefone:">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn mx-3 btn-primary"
+                                    style="width: 100%; color: #fff;">Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-dark" style=" height: auto; min-height: 50vh;">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center" style="padding-top: 50px;">
+                <div class="col-md-6">
+                    <ul class="row ">
+                        <div class="col-md-6">
+                            <a href="/" style="color: #fff; ">Introdução</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#planos" style="color: #fff; ">Planos</a>
+                        </div>
+                    </ul>
+                    <ul class="row">
+                        <div class="col-md-6">
+                            <a href="/ " style="color: #fff; ">Central Dev</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="/" style="color: #fff; ">Documentação</a>
+                        </div>
+                    </ul>
+                    <ul class="row">
+                        <div class="col-md-6">
+                            <a href="/" style="color: #fff; ">Login</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="/" style="color: #fff; ">Politica de privacidade</a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <span class="mb-3 d-flex text-center fw-bold pt-3" style="color: #fff;">Informação e
+                        novidades</span>
+                    <div class="mt-3">
+                        <form action="" class="row">
+                            <div class="col-sm-6 mb-4">
+                                <input
+                                    style="width: 100%; border-radius: 4px; padding: 8px 10px; outline: none; border: none; "
+                                    type="text" name="" id="" placeholder="Seu nome">
+                            </div>
+                            <div class="col-sm-6 mb-4 ">
+                                <input
+                                    style="width: 100%; border-radius: 4px; padding: 8px 10px; outline: none; border: none; "
+                                    type="email" name="" id="" placeholder="Email mais utilizado">
+                            </div>
+                            <div class="px-2">
+                                <button class="btn fs-5 fs-md-4 fw-bold "
+                                    style="width: 100%; border: solid 2px var(--cor-details); color: var(--cor-details);">Receber
+                                    conteúdos</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-around mt-3" style="width: 150px;">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-whatsapp  fa-2x" style="color: #fff;"></i></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram fa-2x " style="color: #fff;"></i></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-f fa-2x " style="color: #fff;"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
